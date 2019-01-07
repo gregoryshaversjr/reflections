@@ -1,0 +1,61 @@
+1. How did viewing a diff between two versions of a file help you see the bug that introduced? It helped me id the error in my code without going through line by line. This made the process of debugging much easier. 
+
+2. How could having easy access to the entire history of a file make you a more efficient programer in the long term?  You can see what changes occured in your code. If you make a major mistake or a bug comes up you can not fix or understand. You can go back to the history and see where that mistake might have taken place.
+
+***Make one commit per logical change. ***
+
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in GIT, vs having versions automatically saved, like Google Docs does? 	
+
+The pros of having to choose when to commit changes is that you get to control  the log when using Git. The problem with this you truly won't be prefect with your commits. You will miss something or might make an un necessary commit. 
+
+ 
+
+4. Why do you think some versions control systems, like Git, allow saving multiple files in one commit, while others, like Google Dcos, treat each file separately?
+
+ Git is used to save files on a continuous bases. In software development its not uncommon to work with multiple files at the same time. For example javascript, html and css is used together often. Users in Google Docs and other repositories application mostly work with one file at time. So it would be pointless to add this feature if the user base doesn't work with more than one file.
+
+
+ 5. How can you use the commands git log and git diff to view the history of files? By using the git log and diff command you can compare and see changes in your code. If you have a major bug or change that affect your application. You can go back and revert the changes in the right location.
+
+ 6. How might using version control make you more confident to make changes that could break something?  You can always revert back to the changes if you break anything.  Version control makes your code almost full proof.
+
+ 
+ 7. Now that you have your workspace set up, what do you want to try using Git for? I want to make machine learning projects and make them public.
+
+ 
+ 8. What happens when you initialize a repository? Why do you need to do it?
+
+ 
+
+
+***Make one commit per logical change. ***
+
+
+Git commands 
+****
+git diff ** file 1 file 2**
+
+git commit
+
+
+git log
+
+
+git --version
+
+
+git checkout **commit id*
+
+
+git clone **url**
+
+
+git config **configurations of git**
+
+
+git init - The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
+
+git status - he git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git. Status output does not show you any information regarding the committed project history.
+
+****
