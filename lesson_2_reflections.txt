@@ -15,18 +15,49 @@ The staging area is only for code and files thats going to be commited to the lo
 3. How can you use the staging area to make sure you have one commit per logical
 change?
 
+You will need to specify which file you would like to stage when staging the file. The command is the git add *file name*. This will insure you're make only one commit when making a major change.
+
+
 
 4. What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+If you wanted to add a brand new feature that will dramatically change the code. You would want to spil your codebase and work on that copied branch. This will insure that this new feature that's being worked on will not affect your overal application. This also helps with organization because if you merge those branches again and the code stopped working you know where the problem occured. 
+
+
 
 5. How do the diagrams help you visualize the branch structure?
+
+It shows how each commit is separated and how it maybe untreacable when checking out commits and recommiting that commit. The log can only see the path that its on. 
 
 
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-  nb
+
+When you merge the banches it combine the changes from branch 2 to branch 1. This makes a new updated branch. The branches are two different code bases so having them separated show what changes occured or not occured. 
+  
 
 7. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+ Git's automatic merging can save the user a lot of time!  Especially when
+    multiple people are working together, merging everything manually could be
+    very painful.
+
+    The downside of automatic merging is that it's not perfect.  Merging the
+    coins branch with the master branch, which included color, resulted in
+    inconsistent visuals, where most items were colored but the coins were not.
+    Git could even make worse mistakes - for example, if one branch deleted a
+    function, and another branch added a call to that function, Git would merge
+    those together with no conflict and the resulting code would be broken.
+
+    Overall, Git's merging can save a lot of time, but it's important to always
+    double check that the code still works after doing a merge.
+
+
+*HEAD* means current commit. This will occur when you checkout a commit. The head of the commit.
+
+More info here. https://stackoverflow.com/questions/4111844/what-does-reachable-unreachable-mean-in-git
+
+
 

@@ -1,0 +1,66 @@
+
+***Make one commit per logical change. ***
+
+
+Git commands 
+****
+git diff ** file 1 file 2** - this compare two files that's been commited to the respository. 
+
+git diff with no arugements will compare the working directory(On C drive.) & the staging area of two files. 
+
+git diff --staged - this will compare the staging directory and local repository of the two files. 
+
+git reset --hard - This will discard stages from the working directory & the staging directory. It will remove the code from your codebase. 
+
+git checkout master 
+
+git commit
+
+git commit -m "..."  - This allows you to write a message about your commit to explain what you're adding to the codebase. 
+
+git log
+
+git add
+
+git --version
+
+
+git checkout **commit id*
+
+
+git branch - will show you which branch you're on.
+
+
+git branch *new branch name* - This will create a new branch
+
+git branch checkout *branch name* - This checkout the branch and changes will be made on this branch.
+
+
+git log --graph --oneline **branches**
+
+git clone **url**
+
+
+git config **configurations of git**
+
+
+git init - The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
+
+git status - he git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git. Status output does not show you any information regarding the committed project history.
+
+git reset - it will remove files from the stagging area, but will keep your files in your working directory. 
+
+git checkout -b new_branch_name - this creates a new branch and checkouts the repository in one command.
+
+git merge **branches**
+
+git gc - turns of git grabage collection 
+
+git branch -d  -deletes a branch
+
+git merge -- abort this aborts a merge and revert any changes
+
+git show *commit_id* - to compare a commit to its parent
+
+git log --graph - draws graph of the log
+****
