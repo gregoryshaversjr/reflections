@@ -2,6 +2,7 @@
 local? The reason to use remote repository is to save your work on a server. If anything happens to your hard drive on your local computer. You can recover the files from that repository. 
 
 
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?  By pulling changes manually rather than allowing Git to do it for you. You will properly know what files and changes are being added to the REMOTE repospitory and being added to your branch. If it was automatic GIT might overrite files on your repository without taking consideration on files you might need.
 
 
 *Remote* - is a concept that allow git and github to create/uploaded/delete files to and from github. Think of REMOTE as a bridge between your computer and the remote repository  
