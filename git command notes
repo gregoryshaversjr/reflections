@@ -20,7 +20,9 @@ git commit -m "..."  - This allows you to write a message about your commit to e
 
 git log
 
-git add
+git add *file name* - This will add individual files to the staging area.
+
+git add . - this will add all files to the staging area.
 
 git --version
 
