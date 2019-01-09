@@ -1,2 +1,9 @@
 1. When would you want to use a remote repository rather than keeping all your work
 local? The reason to use remote repository is to save your work on a server. If anything happens to your hard drive on your local computer. You can recover the files from that repository. 
+
+
+
+
+*Remote* - is a concept that allow git and github to create/uploaded/delete files to and from github. Think of REMOTE as a bridge between your computer and the remote repository  
+
+Another important thing to rememeber is when you push your commits to Github on your REMOTE repository you're pushing the commits to a branch on Github. Not just the entire repository. 
