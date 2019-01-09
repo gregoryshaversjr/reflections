@@ -63,4 +63,18 @@ git merge -- abort this aborts a merge and revert any changes
 git show *commit_id* - to compare a commit to its parent
 
 git log --graph - draws graph of the log
+
+git remote - shows what remote repositories are on your computer.
+
+git remote add *name of the respository & web address of the repository* - will add the remote repository on your local computer. 
+
+git remote -v - will show if the remote repository was add correctly. It will also display additonal info to add and push to the repository.
+
+git pull **name of remote repository & branch you want to commit the changes too**
+
+git push **name of remote repository & branch you want to commit the changes too**
+
+
+
+
 ****
