@@ -42,7 +42,7 @@ git branch checkout *branch name* - This checkout the branch and changes will be
 
 git log --graph --oneline **branches**
 
-git clone **url**
+git clone **url of the repository**
 
 
 git config **configurations of git**
@@ -78,7 +78,14 @@ git pull **name of remote repository & branch you want to commit the changes too
 
 git push **name of remote repository & branch you want to commit the changes too**
 
+git fetch -  this is used when your local remote repository & GitHub have two separate codebases. You can run git log and get diff to see what changes was done to the codebase after running git fetch. 
 
+git pull *remote repository & branch name*  =    get fetch*remote repository* + git merge *branch name & remote repository/Branch name*
 
+fork - is to copy the origina repository to your github profile.
+
+fast-forward merge - https://ariya.io/2013/09/fast-forward-git-merge
+
+git pull upstream *branch name*  - https://www.atlassian.com/git/tutorials/syncing/git-pull
 
 ****

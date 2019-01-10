@@ -5,6 +5,44 @@ local? The reason to use remote repository is to save your work on a server. If 
 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?  By pulling changes manually rather than allowing Git to do it for you. You will properly know what files and changes are being added to the REMOTE repospitory and being added to your branch. If it was automatic GIT might overrite files on your repository without taking consideration on files you might need.
 
 
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Fork - Makes a copy of a repository on Github and places it on the user's github profile. You use this when you want to copy someone eles without cloning it on your computer. 
+
+	Clones - You're making a copy of the repository to your local repository on your computer.
+
+	Branches - This is a separate code base or instances on the repository. You would use this when you want to share and keep work separate with others. Doing this allows you to always have a working app. A separate codebase for working on a new feature. Maybe another codebase for fixing bugs.  
+
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally? One of the best reasons is knowing where the codebase was left off. You can see what changes where removed or added. This also allows you to see if any new branches was created or if there's any additional contributors to the project. 
+
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would you use Google Drive and use the share feature. Each user would have a share permission to update or modify the codebase. This would however make it exteremly painful because allot mistakes will happen in the codebase.  
+
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You want to make changes on a separate branch when you want the reviewer to review your code and see if there is any possbile issues or bugs. If you just merge the branches they might causes issues. 
+
 *Remote* - is a concept that allow git and github to create/uploaded/delete files to and from github. Think of REMOTE as a bridge between your computer and the remote repository  
 
 Another important thing to rememeber is when you push your commits to Github on your REMOTE repository you're pushing the commits to a branch on Github. Not just the entire repository. 
+
+
+
+Where was your commit?
+Before you ran git push, your change should have only existed locally via git log. Commits will not automatically be shared to remotes - you have to manually push your branch if you want to share changes.
+
+After you ran git push, your change should have existed locally and on your fork. It should not have existed on Larry's repository, which is the repository you forked. The reason you forked in the first place is because you don't have permission to change Larry's repository!
+
+
+Git Pull request - is a request to the owner of the master branch to "pull & request" changes to the main codebase of the repository. Usually the codebase goes to the main master branch.
+
+
+Concept you might want to review.
+fork - Know what this is.
+fetch - Know what this is.
+pull request - Know what this is
+fast-forward merge - https://ariya.io/2013/09/fast-forward-git-merge
